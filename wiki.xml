@@ -1,0 +1,8 @@
+<rapidwiki>
+    <info>
+        <!-- Base url of the wiki. Example: 'https://wiki.hypothermic.nl/' -->
+        <baseUrl>https://hypothermic.nl/</baseUrl>
+        <title>My Awesome Wiki</title>
+        <description>A wiki about awesomeness!</description>
+    </info>
+</rapidwiki>
