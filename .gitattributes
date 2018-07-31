@@ -1,0 +1,2 @@
+# Fix the bug where GitHub Linguist wrongly identifies PHP files under 'templates/*.php' as Hack language.
+templates/*.php linguist-language=PHP
