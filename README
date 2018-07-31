@@ -1,26 +1,37 @@
-                      ______________         ______________  __
-_____________ ___________/_/_____  /__      ____/_/__  /_ /_/_/
-__  ___/  __ \ __  __ \_  /_  __  /__ | /| / /_  /__  /__/_/ / 
-_  /   / /_/ ___  /_/ /  / / /_/ / __ |/ |/ /_  / _  /\  _/ /  
-/_/    \__/_/ _  ____//_/  \____/  ____/|__/ /_/  /_/|_| /_/   
-              /_/                                              
+                          ______________         ______________  __
+  _______________ ___________/_/_____  /__      ____/_/__  /_ /_/_/
+  ____  ___/  __ \ __  __ \_  /_  __  /__ | /| / /_  /__  /__/_/ / 
+  ___  /   / /_/ ___  /_/ /  / / /_/ / __ |/ |/ /_  / _  /\  _/ /  
+    /_/    \__/_/ _  ____//_/  \____/  ____/|__/ /_/  /_/|_| /_/   
+                  /_/                                              
 
-      Our Vision
-======================
+                           Our Vision
+=====================================================================
 
 The main goals for this project are to build a robust wiki software
 without any JavaScript, cookies or other client-side data processing.
 This allows an enjoyable visit for everybody - even those concerned
 about privacy who are using NoScript and JavaScript-blocking browsers.
 
-      Quick setup
-======================
+
+                           Quick setup
+=====================================================================
 
 1. Edit `wiki.xml` to your needs (the baseUrl and title must be set)
 2. Run `jobs/sh/update_*.sh` to update the system
 
-       Roadmap
-======================
+
+                          Prerequisites
+---------------------------------------------------------------------
+
+Any semi-modern version of:
+
+- Bourne Shell (availible on most POSIX-compliant systems)
+- PHP 
+
+
+                             Roadmap
+=====================================================================
 
 - Re-do this readme file
 - Make the jobs
@@ -28,8 +39,9 @@ about privacy who are using NoScript and JavaScript-blocking browsers.
 - Page creation system
   - Automatic changes to sitemap and navigate.php
 
-     Contributing
-======================
+
+                           Contributing
+=====================================================================
 
 If you have features you would like to add to RapidWiki or complete
 one of the tasks on the roadmap, please do contribute via GitHub.
@@ -39,13 +51,15 @@ the fork. Then, send a Pull Request (PR) to hypothermic/rapidwiki.
 Pull Requests should always explain changes in the description,
 as I don't have much time and it takes a while to read the code.
 
-   Coding standards
-----------------------
-1. No trailing whitespaces anywhere
-2. Use tabs (4) instead of spaces (except for this readme file.)
 
-       License
-======================
+                         Coding standards
+---------------------------------------------------------------------
+1. No trailing whitespaces anywhere
+2. Use tabs (length of 4) instead of spaces (except for this readme file.)
+
+
+                             License
+=====================================================================
 
 RapidWiki is licensed under the MIT License
 
