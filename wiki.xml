@@ -1,8 +1,12 @@
 <rapidwiki>
     <info>
-        <!-- Base url of the wiki. Example: 'https://wiki.hypothermic.nl/' -->
-        <baseUrl>https://hypothermic.nl/</baseUrl>
+        <!-- Base url of the wiki. Example: 'https://www.myawesomewiki.com/' Please note: this MUST start with "www.", if you have another subdomain, do it like this: "https://www.mysubdomain.myawesomewiki.com/" -->
+        <baseUrl>https://www.myawesomewiki.com/</baseUrl>
+
+        <!-- Title or name of your wiki (size greater than 23 not recommended, browsers will cut off title in the tab text (source: Mozilla Firefox Quantum tab text size) -->
         <title>My Awesome Wiki</title>
+        
+        <!-- Short description of your wiki  -->
         <description>A wiki about awesomeness!</description>
     </info>
 </rapidwiki>
